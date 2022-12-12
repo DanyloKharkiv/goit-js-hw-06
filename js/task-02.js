@@ -15,7 +15,7 @@ const liEl = ingredients.map(ingredients => {
   li.classList.add('item');
   li.textContent = ingredients;
   return li;
-  console.dir(li);
+  console.log(li);
 })
 
 
