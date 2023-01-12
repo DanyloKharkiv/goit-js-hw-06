@@ -16,7 +16,7 @@ function handleSubmit(event) {
     for (let i = 0; i < inputs.length; i += 1) {
         let input = inputs[i];
         let property = input.name;
-        if (input.value.length == 0) {
+        if (input.value.length === 0) {
             alert('Please fill all fields');
             isInputsEmpty = true;
             break;
@@ -25,7 +25,7 @@ function handleSubmit(event) {
         };
     };
 
-    if (isInputsEmpty == false) {
+    if (isInputsEmpty === false) {
         console.log(object);
         currentForm.reset();
     };
