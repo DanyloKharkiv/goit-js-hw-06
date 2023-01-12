@@ -15,7 +15,7 @@ const images = [
 
 
 const galleryRef = images.map((element) => {
-  return `<li><img src="${element.url}" alt="${element.alt}" width="100px" height="100px"></li>`
+  return `<li class="gallery__item"><img src="${element.url}" alt="${element.alt}" width="100px" height="100px"></li>`
 });
 const galleryRefString = galleryRef.join(' ');
 console.log(galleryRefString)
